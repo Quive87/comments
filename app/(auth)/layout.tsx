@@ -8,7 +8,7 @@ import "../globals.css";
 
 export const metadata: Metadata = {
   title: "Comments",
-  description: "A Next.js 13 Meta Threads Application clone",
+  description: "A Next.js 13 Meta Comment Application",
 };
 
 const inter = Inter({ subsets: ["latin"] });

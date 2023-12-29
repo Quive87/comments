@@ -52,7 +52,7 @@ async function Page({ params }: { params: { id: string } }) {
                   className="object-contain"
                 />
                 <p className="max-sm:hidden">{tab.label}</p>
-                {tab.label === "Threads" && (
+                {tab.label === "Comments" && (
                   <p className="ml-1 rounded-sm bg-light-4 px-2 py-1 !text-tiny-medium text-light-2">
                     {userInfo.threadsCount}
                   </p>
@@ -75,7 +75,7 @@ async function Page({ params }: { params: { id: string } }) {
             {/* @ts-ignore */}{" "}
             {userInfo.threadsCount === 0 ? (
               <div className="mt-9 flex flex-col gap-10">
-                <p className="no-result">No threads found</p>
+                <p className="no-result">No Comments found</p>
               </div>
             ) : (
               <ThreadsTab
