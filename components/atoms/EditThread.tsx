@@ -12,10 +12,10 @@ const EditThread = ({ threadId, currentUserId, authorId }: Props) => {
   if (currentUserId !== authorId) return null;
 
   return (
-    <Link href={`/edit-thread/${JSON.parse(threadId)}`}>
+    <Link href={`/edit-comment/${JSON.parse(threadId)}`}>
       <Image
         src="/assets/edit.svg"
-        alt="edit thread"
+        alt="edit comment"
         width={18}
         height={18}
         className="cursor-pointer object-contain"

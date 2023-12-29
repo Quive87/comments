@@ -26,7 +26,7 @@ async function Page() {
               <Link
                 key={activity.author._id}
                 href={`${
-                  (activity.parentId && `/thread/${activity.parentId}`) ||
+                  (activity.parentId && `/comment/${activity.parentId}`) ||
                   `/profile/${activity.author.id}`
                 }`}
               >
