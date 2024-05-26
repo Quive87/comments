@@ -7,7 +7,6 @@
 [![Fork](https://img.shields.io/github/forks/ladunjexa/nextjs13-threads?style=social)](https://github.com/ladunjexa/nextjs13-threads/forks)
 [![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/nextjs13-threads?style=social&logo=github)](https://github.com/ladunjexa/nextjs13-threads/commits)
 
-![demo](https://i.ibb.co/2dSC0TQ/Thumbnail-1.png)
 
 
 
